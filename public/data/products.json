@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "categoryId": 1,
+    "image": "/images/db247/1.jpg"
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "image": "/images/db247/2.jpg"
+  },
+  {
+    "id": 3,
+    "categoryId": 1,
+    "image": "/images/db247/3.jpg"
+  },
+  {
+    "id": 4,
+    "categoryId": 1,
+    "image": "/images/db247/4.jpg"
+  },
+  {
+    "id": 5,
+    "categoryId": 1,
+    "image": "/images/db247/5.jpg"
+  },
+  {
+    "id": 6,
+    "categoryId": 2,
+    "image": "/images/alert-system/1.jpg"
+  },
+  {
+    "id": 7,
+    "categoryId": 2,
+    "image": "/images/alert-system/2.jpg"
+  },
+  {
+    "id": 8,
+    "categoryId": 2,
+    "image": "/images/alert-system/3.jpg"
+  },
+  {
+    "id": 9,
+    "categoryId": 2,
+    "image": "/images/alert-system/4.jpg"
+  },
+  {
+    "id": 10,
+    "categoryId": 2,
+    "image": "/images/alert-system/5.jpg"
+  },
+  {
+    "id": 11,
+    "categoryId": 2,
+    "image": "/images/alert-system/6.jpg"
+  },
+  {
+    "id": 12,
+    "categoryId": 2,
+    "image": "/images/alert-system/7.jpg"
+  },
+  {
+    "id": 13,
+    "categoryId": 2,
+    "image": "/images/alert-system/8.jpg"
+  }
+]
