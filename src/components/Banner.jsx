@@ -1,5 +1,5 @@
 import imgThai from "../assets/imgThai.png";
-
+import CV from "../../src/assets/NGUYEN-HOANG-THAI.pdf";
 const Banner = () => {
   return (
     <section className="relative mx-auto grid min-h-130 w-full max-w-7xl grid-cols-1 overflow-hidden md:grid-cols-2">
@@ -23,9 +23,13 @@ const Banner = () => {
             </p>
           </div>
 
-          <button className="relative z-10 w-fit min-w-30 overflow-hidden border border-yellow-400 px-6 py-2 font-medium text-yellow-400 transition-colors duration-300 before:absolute before:inset-0 before:-z-10 before:origin-left before:scale-x-0 before:bg-yellow-400 before:transition-transform before:duration-500 hover:text-black hover:before:scale-x-100">
-            My Website
-          </button>
+          <a
+            href={CV}
+            download="NGUYEN-HOANG-THAI-CV.pdf"
+            className="relative z-10 w-fit min-w-30 overflow-hidden border border-yellow-400 px-6 py-2 font-medium text-yellow-400 transition-colors duration-300 before:absolute before:inset-0 before:-z-10 before:origin-left before:scale-x-0 before:bg-yellow-400 before:transition-transform before:duration-500 hover:text-black hover:before:scale-x-100"
+          >
+            Download CV
+          </a>
         </div>
       </div>
       {/* RIGHT */}
