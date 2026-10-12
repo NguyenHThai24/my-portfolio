@@ -17,9 +17,7 @@ const Banner = () => {
           <h1 className="text-5xl font-bold text-yellow-400">I'm Thai</h1>
           <div className="my-7 max-w-sm text-justify text-base leading-relaxed text-gray-300">
             <p>
-              I’m a Software Engineering graduate with a passion for building
-              clean and modern web interfaces. I enjoy combining design and
-              development to create engaging user experiences.
+             Seeking to develop expertise in programming, enhance technical skills, and gain practical experience. Aiming to become a professional software developer, create high-quality products, and contribute positively to the company's growth.
             </p>
           </div>
 

@@ -4,8 +4,35 @@ import {
   FaInstagram,
   FaMailBulk,
   FaMapSigns,
+  FaGitAlt,
+  FaGithub,
+  FaDocker,
+  FaUsers,
+  FaLightbulb,
+  FaBolt,
+  FaClock,
+  FaJava,
+  FaFileWord,
+  FaFileExcel,
+  FaFilePowerpoint,
 } from "react-icons/fa";
-import { SiZalo } from "react-icons/si";
+import {
+  SiZalo,
+  SiPostman,
+  SiSwagger,
+  SiC,
+  SiCplusplus,
+  SiPython,
+  SiDotnet,
+  SiJavascript,
+  SiTypescript,
+  SiHtml5,
+  SiCss,
+  SiReact,
+  SiTailwindcss,
+  SiOpenai,
+  SiClaude,
+} from "react-icons/si";
 import SkillCircle from "./SkillCircle";
 
 const AboutMe = () => {
@@ -107,24 +134,26 @@ const AboutMe = () => {
             </h3>
 
             <ul className="space-y-2 text-sm">
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">HTML</span>
-                {/* <span>80%</span> */}
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiHtml5 className="text-orange-500" />
+                <span>HTML</span>
               </li>
 
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">CSS</span>
-                {/* <span>75%</span> */}
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiCss className="text-blue-400" />
+                <span>CSS</span>
               </li>
 
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">JavaScript</span>
-                {/* <span>65%</span> */}
+            <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+             
+                <SiTailwindcss className="text-teal-400" />
+                <span>TailwindCSS</span>
               </li>
 
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">React / Tailwind</span>
-                {/* <span className="text-yellow-400">60%</span> */}
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiReact className="text-cyan-400" />
+              
+                <span>ReactJs</span>
               </li>
             </ul>
           </div>
@@ -136,18 +165,103 @@ const AboutMe = () => {
 
             <ul className="space-y-2 text-sm">
               <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">NodeJS</span>
-                {/* <span>80%</span> */}
+                <span className="">NodeJS / ExpressJs</span>
               </li>
 
               <li className="flex justify-between border-b border-yellow-400/30 pb-1">
                 <span className="">ASP.NET Web API</span>
-                {/* <span>75%</span> */}
               </li>
 
               <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">SQL Server</span>
-                {/* <span className="text-yellow-400">60%</span> */}
+                <span className="">RESTful API / JWT Auth</span>
+              </li>
+
+              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
+                <span className="">SQL Server / MongoDB</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* TOOLS & WORKFLOW */}
+          <div className="border-2 border-yellow-400 bg-[#111] p-4 shadow-[4px_4px_0px_#facc15]">
+            <h3 className="mb-3 text-xl font-bold text-yellow-400">
+              Tools &amp; Workflow
+            </h3>
+
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaGitAlt className="text-orange-500" />
+                <span>Git</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaGithub className="text-white" />
+                <span>GitHub</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiPostman className="text-orange-400" />
+                <span>Postman</span>
+              </li>
+
+              
+            </ul>
+          </div>
+
+          {/* LANGUAGES */}
+          <div className="border-2 border-yellow-400 bg-[#111] p-4 shadow-[4px_4px_0px_#facc15]">
+            <h3 className="mb-3 text-xl font-bold text-yellow-400">
+              Languages
+            </h3>
+
+            <ul className="space-y-2 text-sm">
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiJavascript className="text-red-400" />
+                <span>JavaScript</span>
+              </li>
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiTypescript className="text-red-400" />
+                <span>TypeScript</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiDotnet className="text-purple-400" />
+                <span>C#</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiPython className="text-yellow-300" />
+                <span>Python</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* SOFT SKILLS */}
+          <div className="border-2 border-yellow-400 bg-[#111] p-4 shadow-[4px_4px_0px_#facc15]">
+            <h3 className="mb-3 text-xl font-bold text-yellow-400">
+              Soft Skills
+            </h3>
+
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaUsers className="text-yellow-400" />
+                <span>Teamwork</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaLightbulb className="text-yellow-400" />
+                <span>Problem Solving</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaBolt className="text-yellow-400" />
+                <span>Fast Learner</span>
+              </li>
+
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaClock className="text-yellow-400" />
+                <span>Time Management</span>
               </li>
             </ul>
           </div>
@@ -156,19 +270,19 @@ const AboutMe = () => {
             <h3 className="mb-3 text-xl font-bold text-yellow-400">AI</h3>
 
             <ul className="space-y-2 text-sm">
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">ChatGPT</span>
-                {/* <span>80%</span> */}
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiOpenai className="text-white" />
+                <span>ChatGPT</span>
               </li>
 
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">Deepseek</span>
-                {/* <span>75%</span> */}
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <span className="text-[#4D6BFE] font-bold text-base leading-none">D</span>
+                <span>Deepseek</span>
               </li>
 
-              <li className="flex justify-between border-b border-yellow-400/30 pb-1">
-                <span className="">Claude</span>
-                {/* <span className="text-yellow-400">60%</span> */}
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <SiClaude className="text-[#DA7756]" />
+                <span>Claude</span>
               </li>
             </ul>
           </div>
@@ -180,14 +294,17 @@ const AboutMe = () => {
             </h3>
 
             <ul className="space-y-2 text-sm">
-              <li className="border-b border-yellow-400/30 pb-1">
-                Microsoft Word
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaFileWord className="text-blue-500" />
+                <span>Microsoft Word</span>
               </li>
-              <li className="border-b border-yellow-400/30 pb-1">
-                Microsoft Excel
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaFileExcel className="text-green-500" />
+                <span>Microsoft Excel</span>
               </li>
-              <li className="border-b border-yellow-400/30 pb-1">
-                Microsoft PowerPoint
+              <li className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
+                <FaFilePowerpoint className="text-orange-500" />
+                <span>Microsoft PowerPoint</span>
               </li>
             </ul>
           </div>
@@ -215,12 +332,12 @@ const AboutMe = () => {
             <div className="flex flex-col gap-4 text-sm">
               <p className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
                 <FaMapSigns className="text-yellow-400" />
-                Can Tho City, Vietnam
+                An Giang, Vietnam
               </p>
 
               <p className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
                 <FaMailBulk className="text-yellow-400" />
-                nghthai242k2@gmail.com
+                nhthaik02@gmail.com
               </p>
 
               <p className="flex items-center gap-2 border-b border-yellow-400/30 pb-1">
