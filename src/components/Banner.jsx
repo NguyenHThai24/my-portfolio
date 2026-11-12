@@ -17,7 +17,7 @@ const Banner = () => {
           <h1 className="text-5xl font-bold text-yellow-400">I'm Thai</h1>
           <div className="my-7 max-w-sm text-justify text-base leading-relaxed text-gray-300">
             <p>
-             Seeking to develop expertise in programming, enhance technical skills, and gain practical experience. Aiming to become a professional software developer, create high-quality products, and contribute positively to the company's growth.
+             Seeking to specialize in system management and operations. With experience in requirements analysis, data processing, system monitoring, and user support, I aim to contribute to ensuring stable system operations, providing effective user support, and continuously improving systems to meet the practical needs of the business.
             </p>
           </div>
 
